@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+}
+
+#root {
+  height: 100vh;
+}
+
+.ant-tabs-tab-btn {
+  color: #fff !important;
+  font-size: 12px;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active {
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.ant-tabs-nav {
+  margin-top: 12px !important;
+}
+
+.ant-tabs-nav::before {
+  border-bottom: none !important;
+}
+
+.ant-tabs-ink-bar {
+  background: #fff !important;
+  height: 4px !important;
+}
+
+.ant-tabs-content-holder {
+  position: absolute !important;
+  left: 10px !important;
+  top: 80px !important;
+  width: calc(100% - 20px);
+  height: calc(100vh - 80px);
+}
+
+.ant-tabs-content,
+.ant-tabs-tabpane {
+  height: 100%;
+}
+
+.CS_card {
+  box-shadow: 0px 0px 0px 0px rgba(0, 188, 212, 0.4),
+    0px 0px 4px 0px rgba(0, 188, 212, 0.4);
+  width: 40%;
+  margin-bottom: 20px;
+}
+.DME_card {
+  box-shadow: 0 0px 0px 0px rgba(255, 152, 0, 0.4),
+    0 0px 4px 0px rgba(255, 152, 0, 0.4);
+  width: 48%;
+  margin-bottom: 20px;
+}
+.DE_card {
+  box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.14),
+    0 0px 4px 0px rgba(244, 67, 54, 0.4);
+  width: 46%;
+  margin-bottom: 20px;
+}
+.PE_card {
+  box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.4),
+    0 0px 4px 0px rgba(76, 175, 80, 0.4);
+  width: 40%;
+  margin-bottom: 20px;
+}
+.PR_card {
+  box-shadow: 0 0px 0px 0px rgba(196, 84, 177, 0.4),
+    0 0px 4px 0px rgba(159, 62, 141, 0.4);
+
+  margin-bottom: 20px;
+}
+
+.card_width_100 {
+  width: 100%;
+}
+
+.ant-card-head {
+  color: #FFFFFF !important;
+}
+
+.CS_card .ant-card-head {
+  background: linear-gradient(60deg, #00acc1, #61e6f6);
+}
+.DME_card .ant-card-head {
+  background: linear-gradient(60deg, #fb8c00, #f8b552);
+}
+.DE_card .ant-card-head {
+  background: linear-gradient(60deg, #e53935, #ef5350);
+}
+.PE_card .ant-card-head {
+  background: linear-gradient(60deg, #43a047, #90e494);
+}
+.PR_card .ant-card-head {
+  background: linear-gradient(60deg, #9c3a8f, #e193d3);
+}
+.APP_card .ant-card-head {
+  background: linear-gradient(60deg, #b4dd21, #d9f083);
+}
+.COMPL_card .ant-card-head {
+  background: linear-gradient(60deg, #b93b72, #e99abf);
+}
+.RISK_card .ant-card-head {
+  background: linear-gradient(60deg, #3bb9a4, #83decf);
+}
+.CSAT_card .ant-card-head {
+  background: linear-gradient(60deg, #b0b93b, #dede83);
+}
+
+.details-header {
+  text-align: center;
+  border-bottom: 1px solid lightgrey !important;
+  padding-bottom: 12px !important;
+}
+.details-footer {
+  border-top: 1px solid lightgrey !important;
+  padding-top: 20px !important;
+}
+.appreciationdetails-footer{
+  text-align: center;
+}
+.modal-content {
+  max-height: 450px;
+  overflow-y: scroll;
+}
+
+.modal-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.modal-content::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.modal-content::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.modal-content::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
